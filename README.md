@@ -30,6 +30,9 @@ values ('bruce wayne' , 'batman' , 'XYZ batcave' , '9876543210' , '5646355','454
 ## Usage
 You can run the main file which has the GUI connection with the backend!
 
+## Image of the project
+![img]https://github.com/muhammedmohab/Java-DBMS-with-GUI/blob/main/DBMS.png
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
