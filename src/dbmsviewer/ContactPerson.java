@@ -2,13 +2,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package database;
+package dbmsviewer;
 
 /**
  *
- * @author muham
+ * @author ahmedsalah
  */
 public class ContactPerson {
+
     private int ID;
     private String name;
     private String nick_name;
@@ -19,17 +20,17 @@ public class ContactPerson {
     private String birthdate;
     private String web_site;
     private String profession;
- 
+
     public ContactPerson() {
-        name="";
-        nick_name="";
-        address="";
-        home_phone="";
-        cell_phone="";
-        email="";
-        birthdate="";
-        web_site="";
-        profession="";
+        name = "";
+        nick_name = "";
+        address = "";
+        home_phone = "";
+        cell_phone = "";
+        email = "";
+        birthdate = "";
+        web_site = "";
+        profession = "";
     }
 
     public void setID(int ID) {
@@ -71,6 +72,7 @@ public class ContactPerson {
     public void setProfession(String profession) {
         this.profession = profession;
     }
+
     public int getID() {
         return ID;
     }
